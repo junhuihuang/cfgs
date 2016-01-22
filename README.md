@@ -9,7 +9,7 @@ cd many-conf-files
 
 ## ctags
 ```
-cp ctags ~/.ctags
+cp ctags.conf ~/.ctags
 ```
 
 ## tmux.conf
