@@ -23,3 +23,11 @@ You should change the configure slightly.
 cat ssh.conf >> ~/.ssh/config
 ```
 
+## vim
+install vim https://github.com/spf13/spf13-vim.
+
+add local vim configure file
+```
+cp vimrc.bundles.local ~/.vimrc.bundles.local
+cp vimrc.local ~/.vimrc.local
+```
