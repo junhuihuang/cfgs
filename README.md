@@ -31,3 +31,7 @@ add local vim configure file
 cp vimrc.bundles.local ~/.vimrc.bundles.local
 cp vimrc.local ~/.vimrc.local
 ```
+
+## iTerm
+cp iterm2-recv-zmodem.sh /usr/local/bin/
+cp iterm2-send-zmodem.sh /usr/local/bin/
