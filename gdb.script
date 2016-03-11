@@ -1,0 +1,8 @@
+file ./indexer
+
+b sphinx.cpp:4634
+
+set print elements 0
+handle   SIGPIPE   nostop   print   pass
+
+r -c ./testpack/etc/csft.conf --all

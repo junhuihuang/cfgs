@@ -65,3 +65,6 @@ Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
 ```
 
 6. 详细的步骤和验证见 https://github.com/mmastrac/iterm2-zmodem
+
+## gdb.script
+gdb.script 自动化调试的脚本(例子)
