@@ -68,3 +68,6 @@ Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
 
 ## gdb.script
 gdb.script 自动化调试的脚本(例子)
+
+## cVim
+google-chrome的cVim插件的定制
