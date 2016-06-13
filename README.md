@@ -71,3 +71,8 @@ gdb.script 自动化调试的脚本(例子)
 
 ## cVim
 google-chrome的cVim插件的定制
+
+## svn diff 与 vim 整合
+把svndiff.sh放到~/bin目录下，修改~/.subversion/config文件的helpers选项，
+增加diff-cmd=/home/'yourname'/bin/svndiff.sh
+
