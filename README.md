@@ -76,3 +76,12 @@ google-chrome的cVim插件的定制
 把svndiff.sh放到~/bin目录下，修改~/.subversion/config文件的helpers选项，
 增加diff-cmd=/home/'yourname'/bin/svndiff.sh
 
+## python code checks
+```
+pip install jedi
+# flake8 for code checks
+pip install flake8
+mkdir -p ~/.config
+cp flake8 ~/.config
+```
+flake8的配置文件
