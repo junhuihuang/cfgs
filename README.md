@@ -85,3 +85,10 @@ mkdir -p ~/.config
 cp flake8 ~/.config
 ```
 flake8的配置文件
+
+
+## 加速pip安装第三方库的速度
+```
+mkdir -p ~/.pip
+cp pip.conf ~/.pip
+```
