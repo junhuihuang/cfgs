@@ -1,6 +1,26 @@
 # many-conf-files
 The tools configure file
 
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+**Table of Contents**
+
+- [many-conf-files](#many-conf-files)
+    - [install](#install)
+    - [ctags](#ctags)
+    - [tmux.conf](#tmuxconf)
+    - [ssh.conf](#sshconf)
+    - [vim](#vim)
+    - [iTerm](#iterm)
+    - [gdb.script](#gdbscript)
+    - [cVim](#cvim)
+    - [svn diff 与 vim 整合](#svn-diff-与-vim-整合)
+    - [python code checks](#python-code-checks)
+    - [加速pip安装第三方库的速度](#加速pip安装第三方库的速度)
+    - [加速npm安装速度](#加速npm安装速度)
+
+<!-- markdown-toc end -->
+
+
 ## install
 ```
 git clone https://github.com/stevenswong/many-conf-files.git
@@ -92,3 +112,10 @@ flake8的配置文件
 mkdir -p ~/.pip
 cp pip.conf ~/.pip
 ```
+
+## 加速npm安装速度
+```
+cp npmrc.conf ~/.npmrc
+```
+
+
