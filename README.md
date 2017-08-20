@@ -1,7 +1,7 @@
 # many-conf-files
 The tools configure file
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
 - [many-conf-files](#many-conf-files)
@@ -17,6 +17,7 @@ The tools configure file
     - [python code checks](#python-code-checks)
     - [加速pip安装第三方库的速度](#加速pip安装第三方库的速度)
     - [加速npm安装速度](#加速npm安装速度)
+    - [xterm 配置](#xterm-配置)
 
 <!-- markdown-toc end -->
 
@@ -118,4 +119,8 @@ cp pip.conf ~/.pip
 cp npmrc.conf ~/.npmrc
 ```
 
+## xterm 配置
+```
+cp dotXresources ~/.Xresources
+```
 
